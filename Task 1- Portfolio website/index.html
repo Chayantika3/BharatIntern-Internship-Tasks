@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <nav>
+        <div class="nav_content">
+            <div class="logo">
+                <img src="image/logo.png" alt="" height="70" width="70">
+            </div>
+            <label for="check" class ="checkbox">
+                <i class="ri-menu-fill"></i>
+            </label>
+            <input type="checkbox" name="check" id="check">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#num">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="section" id="home">
+        <div class="section_container">
+            <div class="content">
+            <h1 class="title">
+              Hey , I'm <span>Chayantika<br>a </span> Web Developer
+            </h1>
+            <p class="description">
+                I'm a BCA student passionate about web development, to grow my skills in doing some handson projects on web development. Excited to learn and create innovative technologies in this field.
+            </p>
+            <div class="action_btn">
+                <button class="button1">Contact Me</button>
+            </div>
+            </div>
+            <div class="image">
+              <img src="image/Girl.png" alt="profile">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="about-section" id="about">
+        <div class="container-about">
+            <div class="content-section">
+                <div class="title-about">
+                    <h1>About Me</h1>
+                </div>
+                <div class="content1">
+                    <h3>I am Chayantika Roy.</h3>
+                    <p>As a dedicated student pursuing a Bachelor of Computer Application from Narula Institute of Technology, I am eager to leverage my knowledge and skills in a dynamic and innovative environment. With a strong foundation in computer application and a passion for technology, my goal is to contribute to the development of cutting-edge solutions that drive advancements in the industry.
+                        <strong><br><br> <em>Skills</em><br>
+                         1. Programming Languages: C, Java, Python<br>
+                         2. Web Development: HTML, CSS, JavaScript, Python Django<br>
+                         3. Database Management: MySQL<br></strong>
+                        </p>
+                            <button type=submit class="button2" onclick=" window.open('Resume.pdf'); return true;"> Download CV </button>
+                </div>
+                <div class="social">
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                    <a href=""><i class="fab fa-github"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="image-section">
+            <img src="image/GIRL1.png" alt="">
+        </div>
+    </div>
+    </section>
+
+
+<div class="containerr">
+    <h1>Skill</h1>
+    <div class="bar learning" data-skill="C"></div>
+    <div class="bar back basic" data-skill="Java"></div>
+    <div class="bar back intermediate" data-skill="Python"></div>
+    <div class="bar front advanced" data-skill="CSS"></div>
+    <div class="bar front expert" data-skill="HTML"></div>
+  </div>
+  <!-- My Project -->
+    
+        <h1 class="heading" id="projects"><center>My Projects</center></h1> 
+
+    <main class="grid-container">
+          <article class="featured">
+          </article>
+    
+          <article>
+            <img src="image/realestate.png" alt="article img" height="250" />
+            <div>
+              <h3><center>PropertyPro</center></h3>
+              <p>
+                A Responsive realestate website built with HTML, CSS and Python Django for helping folks searching their dream property. 
+              </p>
+            </div>
+          </article>
+          
+          <article>
+            <img src="image/calc.png" alt="article img" height="250"/>
+            <div>
+              <h3><center>Calculator</center></h3>
+              <p>
+                An interactive calculator built with HTML, CSS, and JavaScript for solving everyday math problems.
+              </p>
+            </div>
+          </article>
+
+          <article>
+            <img src="image/todo.png" alt="article img" height="250" />
+            <div>
+              <h3><center>To Do List</center></h3>
+              <p>
+                A Responsive To Do List built with HTML, CSS and JavaScript for make sure that your tasks are written down all in one place so you don't forget anything important.
+              </p>
+            </div>
+          </article>
+        </main>
+
+<div id="form">
+  <center>
+    <h1 id="num">Reach out to me</h1>
+    <hr></center>
+    <!-- <p class="con"><br><br>
+    <strong><i>Phone No.: +91 6291783287<br>
+    Email : chayantikaroy.2003@gmail.com</i></strong>
+    </p></center> -->
+<form id="waterform" method="post">
+
+<div class="formgroup" id="name-form">
+    <label for="name">Your Name :*</label>
+    <input type="text" id="name" name="name" />
+</div>
+
+<div class="formgroup" id="email-form">
+    <label for="email">Your E-mail / Phone no. :*</label>
+    <input type="email" id="email" name="email" />
+</div>
+
+
+<div class="formgroup" id="message-form">
+    <label for="message">Your Message :</label>
+    <textarea id="message" name="message"></textarea>
+</div>
+
+	<input type="submit" value="Hire Me" />
+</form>
+</div>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+
+<link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet" />
+
+<footer id="contact">
+  <ul>
+    <div id="icon-container">
+      <a href="#">
+        <div class="icon">
+          <li><i class="fab fa-twitter"></i></li>
+        </div>
+      </a>
+      <a href="#">
+        <div class="icon">
+          <li><i class="fab fa-instagram"></i></li>
+        </div>
+      </a>
+      <a href="#">
+        <div class="icon">
+          <li><i class="fab fa-facebook-f"></i></li>
+        </div>
+      </a>
+      <a href="#">
+        <div class="icon">
+          <li><i class="far fa-envelope"></i></li>
+        </div>
+      </a>
+      <a href="#">
+        <div class="icon">
+          <li><i class="fab fa-free-code-camp"></i></li>
+        </div>
+      </a>
+    </div>
+  </ul>
+  <p> @copyright 2023</p>
+</footer>
+
+</body>
+</html>
